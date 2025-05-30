@@ -68,12 +68,24 @@ Chitons are eight-plated mollusks that have thrived in oceans worldwide for at l
 
 # INTRODUCTION
 
-Few experiences in the natural world are as harrowing as being preyed upon. Predators have evolved an extraordinary variety of tools - claws to grasp, fangs to tear, beaks to pierce, and appendages or chelae to crush — in order to capture and kill their prey [@bicknell2025]. In response, prey organisms have developed an impressive array of defensive traits, including metabolic, morphological, and behavioral adaptations [@crowell2024; @barnett2025]. These include toxins, shells, spines, stingers, cryptic or warning coloration, and behaviors that reduce detection - such as mimicking inedible object like sticks, leaves, seaweed, or bird-droppings - or increasing escape success, such as alarm calls, thanatosis, or startle responses [@ruxton2018]. 
-Tendo como alvo o indivíduo, o predador pode causar alterações no uso do habitat o organismo alvo, afetando a distrubuição e tamanho populacional da presa. Muitos predadores são especies chave em seus food webs e reconhecer as espécies que compoes essa interações são fundamentais para ampliar o nosso entendimento do ecossistema. 
+Few experiences in the natural world are as harrowing as being preyed upon. Predators have evolved an extraordinary variety of tools - claws to grasp, fangs to tear, beaks to pierce, and appendages or chelae to crush — in order to capture and kill their prey [@bicknell2025]. In response, prey organisms have developed an impressive array of defensive traits, including metabolic, morphological, and behavioral adaptations [@crowell2024; @barnett2025]. These include toxins, shells, spines, stingers, cryptic or warning coloration, and behaviors that reduce detection - such as mimicking inedible object like sticks, leaves, seaweed, or bird-droppings - or increasing escape success, such as alarm calls, thanatosis, or startle responses [@ruxton2018]. Given their abundance and diversity of cases, predator-prey interactions are widely regarded as classic examples of coevolutionary arms races, where reciprocal selective pressures drive adaptive changes in both predator and prey lineages over successive generations.
+ 
+ 
+
+Ecologycally, predators play a crucial role by regulating prey population growth, shaping prey distributions, and influencing habitat use over time. Their impact often cascades through food webs, indirectly affecting other species and ecosystem functions.
+Generally composed of large and more charismatic species, many conservation efforts prioritize the protection of key predatory species essential to biodiversity conservation and ecosystem stability. Counterparts, uma grande abundancia de presas é necessária para suportar a biomassa de poucos predadores. Assim When sufficient prey is unavailable, os predadores enfrentam maiores riscos de sobrevivência podendo tornar locally extinct. 
 
 
 
- Através de sua ecologia, o predador pode  regular o tamanho populacional das presas, shaping populações de presa, shaping prey distributions and individual habitat use. Isso afeta a food webs e a dinamica do fluxo energetico do ecossistema. Over time, predation pode inducing genetic variation and promoting phenotypic diversity, drives adaptive radiation
+Their influence indirectly affects other populations of organisms through a cascade effect through food webs and therefore many conservation actions have as their main objective the conservation of predatory species that are key to the maintenance of ecosystems.
+
+ For this reason, 
+
+As relações presa-predador são comumente tidos como exemplos classicos de coevolutionary arms race, 
+
+Together, these dynamics form the basis of predator-prey interactions, which are fundamental drivers of ecological patterns and evolutionary processes [@pringle2019; @wickman2024].
+
+Over time, predation pode inducing genetic variation and promoting phenotypic diversity, drives adaptive radiation
 
 Interactions between predators and prey are often
 used as one of the main examples of arms races or coevolutionary process [REF].
