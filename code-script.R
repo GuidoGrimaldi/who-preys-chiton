@@ -1,6 +1,7 @@
 
 library(flextable)
 library(officer)
+library(tidyverse)
 table1 <- read.csv("Table1.csv", sep = ";")
 
 set_flextable_defaults(
@@ -19,7 +20,7 @@ ft <- flextable(table1) %>%
   italic(j = c(2:3)) %>%
   bold(part = "header", bold = TRUE) %>%
   bold(j = 1, i = ~ !is.na(Animals), bold = TRUE, part = "body") %>%
-  footnote(i = c(18,23), j = 4,
+  footnote(i = c(18,23,48), j = 4,
            value = as_paragraph("Method not specified by original authors."),
            ref_symbols = "*",
            part = "body") %>%
