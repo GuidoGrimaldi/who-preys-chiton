@@ -3,6 +3,7 @@ title: "main-document"
 author: "Guido G Grimaldi"
 date: "`r Sys.Date()`"
 output:
+  pdf_document: default
   html_document: default
   word_document: default
 bibliography: references.bib
@@ -59,7 +60,6 @@ Paulo Antunes Horta
 Department of Botany, Biological Science Center, Federal University of Santa Catarina, Florianópolis, Santa Catarina, Brazil, 88040-535
 pauloantuneshorta@gmail.com.
 
-
 ***Corresponding author:** Guido Grimaldi (guidogrimaldi@gmail.com).
 
 # **ABSTRACT**
@@ -86,9 +86,9 @@ A literature review was conducted in the Scopus database in May 2025, with the o
 ![Figure 1: Flow diagram of the methodology and selection process used in this literature review.](Figure1.png)
 
 ## Recording location
-Observation occurred along an intertidal reef in Santa Rita beach (05°41′S, 35°11′W), Rio Grande do Norte, Brazil (Figure 2). The region presents a tropical humid climate, with rainfall occurring during the austral spring [@vital2016]. Winds come predominantly from the southeast [@silva2002]. Tides are semidiurnal with meso-tidal regime [@vital2016]. Siliciclastic sands predominantly dominate the beaches [@vital2009]. The Santa Rita reef is a linear formation along the coast of limited height (no more than 1m). It is characterized by rocky outcrops and irregular boulders, red or black iron-colored, which can either be loosely distributed on the sediment or other rocks [@barboza2019].
+Observation occurred along an intertidal reef in Santa Rita beach (05°41'S, 35°11'W), Rio Grande do Norte, Brazil (Figure 2). The region presents a tropical humid climate, with rainfall occurring during the austral spring [@vital2016]. Winds come predominantly from the southeast [@silva2002]. Tides are semidiurnal with meso-tidal regime [@vital2016]. Siliciclastic sands predominantly dominate the beaches [@vital2009]. The Santa Rita reef is a linear formation along the coast of limited height (no more than 1m). It is characterized by rocky outcrops and irregular boulders, red or black iron-colored, which can either be loosely distributed on the sediment or other rocks [@barboza2019].
 
-![Figure 2: Intertidal reef in Santa Rita beach (05°41′S, 35°11′W), Rio Grande do Norte, Brazil.](Figure2.png)
+![Figure 2: Intertidal reef in Santa Rita beach (05°41'S, 35°11'W), Rio Grande do Norte, Brazil.](Figure2.png)
 
 ## Field Procedures
 As part of the field study on the chiton species *I. pectinata* (in preparation), measurements of water temperature and tide level relative to the base of the boulder were taken before handling the boulder, while weight was measured as the final step after handling. Water temperature was recorded with a thermometer over five minutes, and tide level was measured using a measuring tape. The boulder’s weight was determined by placing it inside a cloth bag and weighing it with a handheld scale. Visual field identification used to determine the octopus’s species (*O. insularis*) was based on distinct red/white body patterns and habitat [@obrien2021]. The chiton was identified as *I. pectinata*, based on their convex valves sculptured by radial ribs [@gomes2015].
@@ -107,13 +107,14 @@ library(flextable)
 library(tidyverse)
 library(officer)
 
+
 table1 <- read.csv("Table1.csv", sep = ";")
 
 set_flextable_defaults(
   post_process_html = autofit,
   post_process_pdf = autofit,
   post_process_docx = autofit,
-  font.family = "Inconsolata"
+  font.family = "Aptos"
 )
 
 ft <- flextable(table1) %>% 

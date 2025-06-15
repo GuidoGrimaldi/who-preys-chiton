@@ -8,7 +8,7 @@ set_flextable_defaults(
   post_process_html = autofit,
   post_process_pdf = autofit,
   post_process_docx = autofit,
-  font.family = "Inconsolata"
+  font.family = "Aptos"
 )
 
 ft <- flextable(table1) %>%
