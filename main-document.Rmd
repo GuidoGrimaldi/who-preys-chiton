@@ -167,7 +167,7 @@ While dietary analyses provide important insights into predator-prey relationshi
 
 **Competing interests:** Not applicable.
 
-**Availability of data and materials:** Not applicable.
+**Availability of data and materials:** All reference libraries, tables, figures, R scripts, and R Markdown files used in this study are available at: https://github.com/GuidoGrimaldi/who-preys-chiton.
 
 **Consent for publication:** Not applicable.
 
