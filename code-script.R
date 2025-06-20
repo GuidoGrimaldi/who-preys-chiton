@@ -31,3 +31,15 @@ ft <- flextable(table1) %>%
 )
 ft
 
+sect_properties <- prop_section(
+  page_size = page_size(
+    orient = "landscape",
+    width = 10, height = 11.7
+  ),
+  type = "continuous",
+  page_margins = page_mar()
+)
+
+save_as_docx(ft,  path = "Table1.docx", pr_section = sect_properties
+)
+
